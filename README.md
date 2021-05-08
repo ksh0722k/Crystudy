@@ -5,3 +5,6 @@
 - React
 - Material UI
 - scss
+
+#BackEnd
+- 서버 구함
