@@ -1,16 +1,75 @@
 .main-cont {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    @media screen and (min-width: 768px) {
-      margin: 0 auto;
-    }
+    margin: 10% auto;
     .main-title {
-      font-size: 50px;
-      margin: 30px 0;
+      font-size: 1.3rem;
+      margin: 0 auto;
       @media screen and (min-width: 768px) {
-        h2 {
-          font-size: 40px;
+        font-size: 1.4rem;
+      }
+    }
+    .main-center-cont {
+      display: grid;
+      margin: 10% auto;
+      @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        margin: 6% auto;
+      }
+      .MuiSvgIcon-root {
+        fill: currentColor;
+        height: 1em;
+        display: inline-block;
+        font-size: 80px;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        flex-shrink: 0;
+        user-select: none;
+        @media screen and (min-width: 768px) {
+          height: 1em;
+          font-size: 100px;
+        }
+      }
+      .main-center-Rcont {
+        background-color: #e0d7f1;
+        border-radius: 50%;
+        border: 1.2px solid #a9a3a3;
+        width: 135px;
+        height: 135px;
+        margin: 0 auto;
+        cursor: pointer;
+        @media screen and (min-width: 768px) {
+          margin: 0 120px;
+          width: 175px;
+          height: 175px;
+          border: 1.5px solid #a9a3a3;
+        }
+      }
+      .main-center-Rtxt {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 1rem;
+      }
+      .main-center-Lcont {
+        background-color: #c0afe3;
+        border-radius: 50%;
+        border: 1.2px solid #a9a3a3;
+        width: 135px;
+        height: 135px;
+        margin: 30% auto;
+        cursor: pointer;
+        @media screen and (min-width: 768px) {
+          margin: 0 120px;
+          width: 175px;
+          height: 175px;
+          border: 1.5px solid #a9a3a3;
+        }
+      }
+      .main-center-Ltxt {
+        text-align: center;
+        margin: -16px;
+        @media screen and (min-width: 768px) {
+          margin-top: 25px;
         }
       }
     }

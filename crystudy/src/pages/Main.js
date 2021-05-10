@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
 import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
-import { Button } from "@material-ui/core";
 import "../scss/pages/_Main.scss";
 
 function Main() {
@@ -9,10 +9,16 @@ function Main() {
 
     return (
         <div className="main-cont">
-            <div className="main-title">환영합니다,<br/>{userName} 님!</div>
+            <div className="main-title">환영합니다,<br/>&nbsp;{userName} 님!</div>
             <div className="main-center-cont">
-                <Button className="main-center-Rcont"><SearchIcon/></Button>
-                <Button className="main-center-Lcont"><DescriptionOutlinedIcon/></Button>
+                <div>
+                    <Link to ="/studySearch"><button className="main-center-Rcont"><SearchIcon/></button></Link>
+                    <div className="main-center-Rtxt">스터디찾기</div>
+                </div>
+                <div>
+                    <Link to ="/studyManage"><button className="main-center-Lcont"><DescriptionOutlinedIcon/></button></Link>
+                    <div className="main-center-Ltxt">내스터디</div>
+                </div>
             </div>
         </div>
     )
