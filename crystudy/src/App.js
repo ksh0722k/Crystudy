@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import Main from './pages/Main.js';
 import StudySearch from './pages/StudySearch.js';
+import StudySearchDetail from './pages/StudySearchDetail.js';
+import StudyAdd from './pages/StudyAdd.js';
 import StudyManage from './pages/StudyManage.js';
 import StudyDetail from './pages/StudyDetail.js';
 import StudyCalendar from './pages/StudyCalendar.js';
@@ -13,6 +15,8 @@ const App = () => {
         <Switch>
           <Route path="/" component={Main} exact/>
           <Route path="/studySearch" component={StudySearch} exact/>
+          <Route path="/studySearch/:title" component={StudySearchDetail} exact/>
+          <Route path="/studyAdd" component={StudyAdd} exact/>
           <Route path="/studyDetail" component={StudyDetail} exact/>
           <Route path="/studyManage" component={StudyManage} exact/>
           <Route path="/studyDetail" component={StudyDetail} exact/>
