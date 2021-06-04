@@ -5,19 +5,25 @@
     font-family: 'Montserrat', Courier, monospace;
 }
 
-#issueIcon{
-    float: right;
-}
 
 #rightframe{
     @media screen and (min-width: 768px) {
-        width: 12%;
+        margin-top: 30px;
+        width: 20%;
         display: inline-block;
         position: absolute;
-        right: 30px;  
+        right: 50px;  
         padding-bottom: 20px; 
     }
     
+}
+
+#issueTitleFrame{
+    text-align: right;
+}
+
+#issueTitle{
+    display: inline-block;
 }
 
 #rightbarlogo{
@@ -31,28 +37,34 @@
     }
 }
 
+#inputFrame{
+    padding-right: 15px;
+    text-align: right;
+}
+
 #issueinput{
 
     @media screen and (min-width: 768px){
         display: inline-block;
-        width: 160px;
-        height: 30px;
-        border: 1px solid grey;
-        border-radius: 5px;
+        width: 70%;
+        height: 35px;
+        border: 2px solid grey;
+        border-radius: 30px;
         font-family:'Noto Sans KR', Times, serif;
-        padding-left: 10px;
+        padding-left: 15px;
         margin-left: 10px;
     }
 }
 
 #issueBtn{
     @media screen and (min-width: 768px){
+        font-size: 1.5rem;
         color: black;
         display: inline-block;
         margin-left: 5px;
-        width: 30px;
-        height: 30px;
-        border: 1px solid grey;
+        width: 40px;
+        height: 40px;
+        border: 2px solid grey;
         border-radius: 100px;
         background-color: white;
     }

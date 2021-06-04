@@ -1,10 +1,12 @@
 import React from 'react';
-import "../scss/pages/_StudyMainBar.scss";
+import "../scss/pages/_StudyPlanBar.scss";
 
 function StudyPlanBar() {
     return (
-        <div class="mainframe">
-            <h1>Study Plan</h1>
+        <div id="planframe">
+            <div id="postFrame">
+                <h1>Study Plan</h1>
+            </div>
         </div>
     )
 }

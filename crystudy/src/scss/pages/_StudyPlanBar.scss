@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
-#mainframe{
+#planframe{
     @media screen and (min-width: 768px) {
         padding: 15px;
         font-family: 'Montserrat', Courier, monospace;
@@ -19,29 +19,4 @@
         margin-top: 50px;
         padding-left: 100px;
     }
-}
-
-#studyFrame{
-    padding-left: 50px;
-}
-
-#studyIcon{
-}
-
-#studyTitle{
-    font-size: 4.0rem;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-.studyInfoTitle{
-    font-size: 2.0rem;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    font-family: 'Noto Sans KR', Courier, monospace;
-}
-
-.studyInfo{
-    font-size: 1.3rem;
-    font-family: 'Noto Sans KR', Courier, monospace;
 }

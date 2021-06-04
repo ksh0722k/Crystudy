@@ -5,6 +5,11 @@
 .naviDiv{
     display: inline-block;
     width: 100%;
+    padding-top: 15px;
+}
+
+#logodiv{
+    margin-bottom: 15px;
 }
 
 
@@ -14,17 +19,21 @@
     font-size: 1.2rem;
 
     @media screen and (min-width: 768px) {
+        margin-top: 10px;
+        margin-bottom: 10px;
         font-size: 2.0rem;
         display: inline;
+        margin-bottom: 20px;
     }
 }
 
 #logoIcon{
     @media screen and (min-width: 768px) {
-        margin-top: 10px;
-    display: inline;
-    width: 50px;
-    height: 50px;
+        float: right;
+        width: 200px;
+        height: 55px;
+        display: inline;
+        margin-right: 10px;
     }
 }
 
