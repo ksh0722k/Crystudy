@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.naviDiv{
+    display: inline-block;
+    width: 100%;
+}
+
+
+#navilogo{
+    font-family: 'Major Mono Display', Courier, monospace;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 2.0rem;
+    }
+}
+
+#logoimg{
+    display: inline-block;
+}
+
+#crystudydiv{
+    display: inline-block;
+    margin: 0px;
+}
+
+#infodiv{
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 10px;
+
+    @media screen and (min-width: 768px) {
+        display: inline-block;
+        font-size: 1.0rem;
+        margin-left: 0px;
+    }
+}
+
+#infologo{
+    font-family:'Noto Sans KR', Times, serif;
+    margin: -5px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+big{
+    display: inline-block;
+    color: purple;
+}

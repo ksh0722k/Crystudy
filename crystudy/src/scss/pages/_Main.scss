@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
 .main-cont {
     display: flex;
     flex-direction: column;
     margin: 10% auto;
+
     .main-title {
+      font-family: 'Noto Sans KR', Courier, monospace;
       font-size: 1.3rem;
       margin: 0 auto;
       @media screen and (min-width: 768px) {
@@ -46,6 +50,7 @@
         }
       }
       .main-center-Rtxt {
+        font-family: 'Noto Sans KR', Courier, monospace;
         margin-top: 25px;
         text-align: center;
         font-size: 1rem;
@@ -66,6 +71,7 @@
         }
       }
       .main-center-Ltxt {
+        font-family: 'Noto Sans KR', Courier, monospace;
         text-align: center;
         margin: -16px;
         @media screen and (min-width: 768px) {

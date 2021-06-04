@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+#leftframe{
+    font-family: 'Montserrat', Times, serif;
+    @media screen and (min-width: 768px) {
+        width: 12%;
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+    }
+    
+
+}
+
+#menudiv{
+    @media screen and (min-width: 768px) {
+        padding-left: 30px;
+    }
+   
+}
+
+.menu{
+    font-family:'Noto Sans KR', Times, serif;
+    display: block;
+    font-size: 1.0rem;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+
+    @media screen and (min-width: 768px){
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+#leftbarlogo{
+    padding-left: 15px;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+#rightframe{
+    @media screen and (min-width: 768px) {
+        width: 12%;
+        display: inline-block;
+        position: absolute;
+        right: 30px;  
+        padding-bottom: 20px; 
+    }
+    
+}
+
+#rightbarlogo{
+    @media screen and (min-width: 768px){
+        font-family: 'Montserrat', Times, serif;
+        margin-left: 10px;
+    }
+}
+
+#issueinput{
+
+    @media screen and (min-width: 768px){
+        display: inline-block;
+        width: 160px;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        font-family:'Noto Sans KR', Times, serif;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+}
+
+#issueBtn{
+    @media screen and (min-width: 768px){
+        color: black;
+        display: inline-block;
+        margin-left: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 100px;
+        background-color: white;
+    }
+    
+}

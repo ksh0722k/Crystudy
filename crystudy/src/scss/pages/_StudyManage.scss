@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+.frame{
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+StudyLeftBar{
+    display: inline-block;
+    width: 10%;
+}
+
+#frame{
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+}
+
+StudyRightBar{
+    display: inline-block;
+    width: 10%;
+}
