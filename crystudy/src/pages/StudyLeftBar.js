@@ -1,12 +1,13 @@
 import React from 'react';
 import "../scss/pages/_StudyLeftBar.scss";
 import { Link } from 'react-router-dom';
+import workIcon from '../ref/workspaceIcon.png';
 
 function StudyLeftBar() {
     return (
         <>
         <div id="leftframe">
-            <h2 id="leftbarlogo">  Workspace</h2>
+            <h2 id="leftbarlogo">  <img id="workIcon"src={workIcon}></img>Workspace</h2>
             <div id="menudiv">
             <Link to ="/studyManage" class="menu">정보</Link>
             <Link to ="/studyPlan" class="menu">일정</Link>
