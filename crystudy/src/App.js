@@ -5,6 +5,7 @@ import StudySearch from './pages/StudySearch.js';
 import StudyManage from './pages/StudyManage.js';
 import StudyPlan from './pages/StudyPlan.js';
 import StudyData from './pages/StudyData.js';
+import StudyWrite from './pages/StudyWrite.js';
 import MainComponent from './pages/MainComponent.js';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/studyManage" component={StudyManage} />
           <Route path="/studyPlan" component={StudyPlan} />
           <Route path="/studyData" component={StudyData} />
+          <Route path="/studyDataWrite" component={StudyWrite} />
           <Route path="/mainComponent" component={MainComponent} />
         </Switch>
       </BrowserRouter>
