@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
 .main-cont {
     display: flex;
     flex-direction: column;
     margin: 10% auto;
+
     .main-title {
+      font-family: 'Noto Sans KR', Courier, monospace;
       font-size: 1.3rem;
+      font-weight: 700;
       margin: 0 auto;
       @media screen and (min-width: 768px) {
         font-size: 1.4rem;
@@ -38,6 +43,7 @@
         height: 135px;
         margin: 0 auto;
         cursor: pointer;
+
         @media screen and (min-width: 768px) {
           margin: 0 120px;
           width: 175px;
@@ -45,11 +51,15 @@
           border: 1.5px solid #a9a3a3;
         }
       }
+
       .main-center-Rtxt {
+        font-family: 'Noto Sans KR', Courier, monospace;
+        font-weight: 700;
         margin-top: 25px;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.3rem;
       }
+
       .main-center-Lcont {
         background-color: #c0afe3;
         border-radius: 50%;
@@ -58,6 +68,7 @@
         height: 135px;
         margin: 30% auto;
         cursor: pointer;
+
         @media screen and (min-width: 768px) {
           margin: 0 120px;
           width: 175px;
@@ -65,7 +76,11 @@
           border: 1.5px solid #a9a3a3;
         }
       }
+
       .main-center-Ltxt {
+        font-family: 'Noto Sans KR', Courier, monospace;
+        font-size: 1.3rem;
+        font-weight: 700;
         text-align: center;
         margin: -16px;
         @media screen and (min-width: 768px) {

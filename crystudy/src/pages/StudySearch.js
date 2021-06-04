@@ -77,6 +77,60 @@ const StudySearch=({history})=>{
                 "numberOfPeople": "2",
                 "summary": "Android 스터디",
                 "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "Study10",
+                "numberOfPeople": "2",
+                "summary": "Android 스터디",
+                "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "Study11",
+                "numberOfPeople": "2",
+                "summary": "Android 스터디",
+                "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "Study12",
+                "numberOfPeople": "2",
+                "summary": "Android 스터디",
+                "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "Study13",
+                "numberOfPeople": "2",
+                "summary": "Android 스터디",
+                "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "Study14",
+                "numberOfPeople": "2",
+                "summary": "Android 스터디",
+                "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "Study15",
+                "numberOfPeople": "2",
+                "summary": "Android 스터디",
+                "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "Study16",
+                "numberOfPeople": "2",
+                "summary": "Android 스터디",
+                "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "Study17",
+                "numberOfPeople": "2",
+                "summary": "Android 스터디",
+                "content": "Android 개발 공부하기"
+            },
+            {
+                "title": "알고리즘 스터디",
+                "numberOfPeople": "4",
+                "summary": "백준 알고리즘 풀기",
+                "content": "일주일에 네 문제 풀고 각자 맡은 부분 발표하기"
             }
         ])
     });

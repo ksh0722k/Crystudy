@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.naviDiv{
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#logodiv{
+    margin-bottom: 15px;
+}
+
+
+#navilogo{
+    font-family: 'Major Mono Display', Courier, monospace;
+    margin-left: 20px;
+    font-size: 1.2rem;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2.0rem;
+        display: inline;
+        margin-bottom: 20px;
+    }
+}
+
+#logoIcon{
+    @media screen and (min-width: 768px) {
+        float: right;
+        width: 200px;
+        height: 55px;
+        display: inline;
+        margin-right: 10px;
+    }
+}
+
+#crystudydiv{
+    display: inline-block;
+    margin: 0px;
+}
+
+#infodiv{
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 10px;
+
+    @media screen and (min-width: 768px) {
+        display: inline-block;
+        font-size: 1.0rem;
+        margin-left: 0px;
+    }
+}
+
+#infologo{
+    font-family:'Noto Sans KR', Times, serif;
+    font-weight: 700;
+    margin: -5px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+big{
+    display: inline-block;
+    color: purple;
+}

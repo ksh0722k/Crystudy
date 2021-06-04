@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+#planframe{
+    @media screen and (min-width: 768px) {
+        padding: 15px;
+        font-family: 'Montserrat', Courier, monospace;
+        width: 62%;
+        position: absolute;
+        display: inline-block;
+        left: 14%;
+        right: 12%;
+    }
+    
+}
+#postFrame{
+    @media screen and (min-width: 768px){
+        margin-top: 50px;
+        padding-left: 100px;
+    }
+}
+.studyPlan {
+    .MuiPaper-elevation1 {
+        width: 100%;
+        @media screen and (min-width: 768px){
+            width: 65%;
+            margin-left: 14%;
+            margin-top: 100px;
+        }
+    }
+}
