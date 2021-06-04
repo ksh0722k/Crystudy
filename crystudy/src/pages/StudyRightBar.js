@@ -7,7 +7,7 @@ function StudyRightBar() {
         <>
         <div id="rightframe">
             <div id="issueTitleFrame">
-            <h2 id="issueTitle">Issue Page</h2>
+            <h2 id="issueTitle">Issue Log</h2>
             <img id="issueIcon" src={issueIcon}></img>
             </div>
         

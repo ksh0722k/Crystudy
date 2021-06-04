@@ -17,18 +17,52 @@
 #postFrame{
     @media screen and (min-width: 768px){
         margin-top: 50px;
-        padding-left: 100px;
+        padding-left: 150px;
+        padding-right: 100px;
     }
+}
+
+#tableFrame{
+    padding: 30px;
 }
 
 #studyDataTable{
     @media screen and (min-width: 768px) {
         font-family: 'Noto Sans KR', Courier, monospace;
+        margin: 0px;
     }
 }
 
-.studyData{
+#tableTop{
     @media screen and (min-width: 768px) {
-        margin-right: 40px;
+        padding-bottom: 50px;
+    }
+}
+
+tr{
+    font-weight: 700;
+}
+
+tr > td{
+    @media screen and (min-width: 768px) {
+        font-family: 'Noto Sans KR', Courier, monospace;
+        padding-right: 200px;
+    }
+}
+
+#writeBtn{
+    @media screen and (min-width: 768px) {
+        font-family: 'Noto Sans KR', Courier, monospace;
+        text-align: right;
+        float: right;
+        font-size: 1.0rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        border-radius: 40px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
