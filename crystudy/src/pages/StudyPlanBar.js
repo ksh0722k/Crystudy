@@ -68,7 +68,12 @@ export default class StudyPlanBar extends React.PureComponent {
       } = this.state;
   
       return (
-        <div className="studyPlan">
+        <>
+        <div id="studyPlan">
+          <div id="studyPlanLogo">
+            <h1>Study Palnner</h1>
+            <p>스터디 일정을 공유하세요.</p>
+          </div>
         <Paper>
           <Scheduler
             data={data}
@@ -102,6 +107,7 @@ export default class StudyPlanBar extends React.PureComponent {
           </Scheduler>
         </Paper>
         </div>
+        </>
       );
     }
   }

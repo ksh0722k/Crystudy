@@ -1,11 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+*{
+    font-family: 'Noto Sans KR', Courier, monospace;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Noto Sans KR', Courier, monospace;
+    font-weight: 700;
+}
+
+textarea{
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
 .study-add {
+    font-family: 'Noto Sans KR', Courier, monospace;
+    font-weight: 700;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     .study-add-main {
-        margin: 20px auto;
+        margin: 40px auto;
         @media screen and (min-width: 768px) {
-            margin-left: 400px;
+            margin-left: 10%px;
         }
         .study-add-h2 {
             margin-left: 60px;
@@ -20,6 +40,8 @@
             margin-top: 30px;
             margin-bottom: 20px;
             font-size: 1.2rem;
+            font-family: 'Noto Sans KR', Courier, monospace;
+            font-weight: 700;
             @media screen and (min-width: 768px) {
                 margin-top: 40px;
                 margin-left: 10px;
@@ -27,17 +49,21 @@
                 grid-template-rows: 50px 50px 50px 300px;
             }
             .study-add-t-title {
-                font-weight: bold;
+                font-family: 'Noto Sans KR', Courier, monospace;
+                  font-weight: 700;
             }
             .study-add-title {
                 height: 22px;
+                font-family: 'Noto Sans KR', Courier, monospace;
+                font-weight: 700;
                 @media screen and (min-width: 768px) {
                     height: 30px;
                 }
             }
             .study-add-t-nop {
-                font-weight: bold;
-                margin-top: 20px;
+                font-family: 'Noto Sans KR', Courier, monospace;
+                 font-weight: 700;
+                margin-top: 22px;
             }
             .study-add-nop-input {
                 height: 20px;
@@ -47,8 +73,9 @@
                 }
             }
             .study-add-t-summ {
-                font-weight: bold;
-                margin-top: 30px;
+                font-family: 'Noto Sans KR', Courier, monospace;
+                font-weight: 700;
+                margin-top: 32px;
             }
             .study-add-summ {
                 height: 20px;
@@ -58,7 +85,8 @@
                 }
             }
             .study-add-t-cont {
-                font-weight: bold;
+                font-family: 'Noto Sans KR', Courier, monospace;
+                font-weight: 700;
                 margin-top: 40px;
             }
             .study-add-cont {
@@ -70,18 +98,26 @@
             }
         }
         .study-add-submit {
+            font-family: 'Noto Sans KR', Courier, monospace;
+            font-weight: 700;
             width: 100px;
             height: 35px;
             margin-top: 245px;
-            margin-left: 110px;
-            font-size: 1rem;
+            margin-left: 10%;
+            font-size: 0.8rem;
+
             @media screen and (min-width: 768px) {
                 margin-top: 90px;
-                margin-left: 450px;
-                font-size: 1.3rem;
+                margin-left: 415px;
+                font-size: 1.0rem;
                 height: 40px;
                 width: 120px;
             }
         }
     }
+}
+
+input{
+    border: 2px solid grey;
+    border-radius: 30px;
 }

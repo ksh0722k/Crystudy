@@ -23,14 +23,12 @@ class StudyRightBar extends React.Component {
 
     render(){
         return(
-            <div className="issue">
+            <div id="issue">
                 <div id="rightframe">
                     <div id="issueTitleFrame">
                         <h2 id="issueTitle">Issue Log</h2>
                         <img id="issueIcon" src={issueIcon}></img>
-                    </div>
-                </div>
-                <div className="issueTop">  
+                        <div className="issueTop">  
                     <li>추가사항 확인해주세요!<br/>이희진<br/>2021.06.05</li>
                     {this.state.posting.map(e=>{
                         return(
@@ -48,6 +46,9 @@ class StudyRightBar extends React.Component {
                     <input type="text" id="issueinput" placeholder="이슈를 등록하세요!" onChange={this.content}/>
                     <button id="issueBtn" onClick={this.posting}>↑</button>
                 </div>
+                    </div>
+                </div>
+                
             </div>
         )
     }

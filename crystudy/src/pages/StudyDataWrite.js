@@ -2,18 +2,16 @@ import React from 'react';
 import "../scss/pages/_StudyManage.scss";
 import StudyLeftBar from "./StudyLeftBar.js";
 import StudyRightBar from "./StudyRightBar.js";
-import StudyDataWriteBar from './StudyDataWriteBar.js';
+import StudyDataWriteBar from "./StudyDataWriteBar.js";
+import Editor from './Editor.js';
 
-function StudyWrite() {
+function StudyPlan() {
     return (
-        <>
         <div class="frame">
             <StudyLeftBar></StudyLeftBar>
-            <StudyDataWriteBar></StudyDataWriteBar>
-            <StudyRightBar></StudyRightBar>
+            <Editor></Editor>
         </div>
-        </>
     )
 }
 
-export default StudyWrite;
+export default StudyPlan;

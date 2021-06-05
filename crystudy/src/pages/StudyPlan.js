@@ -1,8 +1,7 @@
 import React from 'react';
-import "../scss/pages/_StudyManage.scss";
+import "../scss/pages/_StudyPlan.scss";
 import StudyLeftBar from "./StudyLeftBar.js";
 import StudyRightBar from "./StudyRightBar.js";
-import StudyMainBar from "./StudyMainBar.js";
 import StudyPlanBar from "./StudyPlanBar.js";
 
 function StudyPlan() {
@@ -10,7 +9,6 @@ function StudyPlan() {
         <div class="frame">
             <StudyLeftBar></StudyLeftBar>
             <StudyPlanBar></StudyPlanBar>
-            <StudyRightBar></StudyRightBar>
         </div>
     )
 }

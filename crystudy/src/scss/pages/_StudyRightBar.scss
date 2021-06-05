@@ -6,6 +6,18 @@
 }
 
 
+#issue{
+    display: inline-block;
+}
+
+#rightframe{
+    display: inline-block;
+}
+
+#issueTitleFrame{
+    display: inline-block;
+}
+
 #rightframe{
     @media screen and (min-width: 768px) {
         margin-top: 30px;
@@ -43,9 +55,56 @@
     text-align: right;
 }
 
-#issueinput{
+.issueTop{
+    width: 83%;
+    text-align: right;
+    float: right;
+    margin-right: 15px;
+}
+
+.issueComp{
+    font-family: 'Noto Sans KR', Courier, monospace;
+    background-color: #f5f5f5;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.issueContent{
+    font-family: 'Noto Sans KR', Courier, monospace;
+    font-weight: 700;
+}
+
+.issueContent > li{
+    font-family: 'Noto Sans KR', Courier, monospace;
+    font-weight: 700;
+}
+
+.issueWriter{
+    font-family: 'Noto Sans KR', Courier, monospace;
+    font-weight: 700;
+}
+
+.issueTop > li{
+    font-family: 'Noto Sans KR', Courier, monospace;
+    background-color: #f5f5f5;
 
     @media screen and (min-width: 768px){
+        font-size: 1.0rem;
+        text-decoration: none;
+        padding: 20px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  
+}
+
+
+#issueinput{
         display: inline-block;
         width: 70%;
         height: 35px;
@@ -55,17 +114,19 @@
         font-weight: 700;
         padding-left: 15px;
         margin-left: 10px;
+    @media screen and (min-width: 768px){
+        
     }
 }
 
 #issueBtn{
+    width: 40px;
+    height: 40px;
     @media screen and (min-width: 768px){
         font-size: 1.5rem;
         color: black;
         display: inline-block;
         margin-left: 5px;
-        width: 40px;
-        height: 40px;
         border: 2px solid grey;
         border-radius: 100px;
         background-color: white;

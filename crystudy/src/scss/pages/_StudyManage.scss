@@ -4,10 +4,20 @@
     font-family: 'Montserrat', Courier, monospace;
 }
 
+StudyPlanBar{
+    display: inline-block;
+    width: 60%;
+}
+
+.editorFrame{
+    display: inline;
+}
+
 .frame{
     padding: 10px;
     margin-left: 5%;
     margin-right: 5%;
+    display: inline-block;
 }
 
 StudyLeftBar{
@@ -26,4 +36,9 @@ StudyLeftBar{
 StudyRightBar{
     display: inline-block;
     width: 10%;
+}
+
+
+#rightframe{
+    display: inline-block;
 }

@@ -8,7 +8,7 @@ function Navigator() {
         <div className="naviDiv">
             <div id="logodiv">
                     <img id="logoIcon" src={sungshin}></img>
-                <h1 id="navilogo"><big>C</big>ry<big>S</big>tudy</h1>
+                    <h1 id="navilogo"><big>C</big>ry<big>S</big>tudy</h1>
                 
                 <div id="infodiv">
                     <p id="infologo">당신을 위한 러닝스터디 어플리케이션</p>

@@ -7,7 +7,7 @@ import StudyAdd from './pages/StudyAdd.js';
 import StudyManage from './pages/StudyManage.js';
 import StudyPlan from './pages/StudyPlan.js';
 import StudyData from './pages/StudyData.js';
-import StudyWrite from './pages/StudyWrite.js';
+import StudyDataWrite from './pages/StudyDataWrite.js';
 import MainComponent from './pages/MainComponent.js';
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/studyManage" component={StudyManage} exact/>
           <Route path="/studyPlan" component={StudyPlan} />
           <Route path="/studyData" component={StudyData} />
-          <Route path="/studyDataWrite" component={StudyWrite} />
+          <Route path="/studyDataWrite" component={StudyDataWrite} exact />
           <Route path="/mainComponent" component={MainComponent} />
         </Switch>
       </BrowserRouter>

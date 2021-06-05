@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+*{
+    font-family: 'Noto Sans KR', Courier, monospace;
+    font-weight: 700;
+}
+
 .study-search {
+    
     display: flex;
     flex-direction: column;
     margin: 50px auto;
+    font-family: 'Noto Sans KR', Courier, monospace;
+    font-weight: 700;
+
     .study-add-btn {
+        font-family: 'Noto Sans KR', Courier, monospace;
+        font-weight: 700;
         border: 1px solid #a9a3a3;
         border-radius: 5px;
         margin-top: -30px;
@@ -23,6 +37,7 @@
         border: 1.5px solid #a9a3a3;
         border-radius: 8px;
         box-shadow: 3px 3px 3px #c4c4c4;
+
         @media screen and (min-width: 768px) {
             margin-top: 20px;
             border: 1.8px solid #a9a3a3;
@@ -32,13 +47,19 @@
             border-radius: 8px;
             width: 200px;
             height: 30px;
+            font-family: 'Noto Sans KR', Courier, monospace;
+            font-weight: 700;
+
             @media screen and (min-width: 768px) {
                 width: 500px;
                 height: 50px;
                 font-size: 1rem;
+                margin-left: 15px;
             }
         }
         .study-search-submit {
+            font-family: 'Noto Sans KR', Courier, monospace;
+            font-weight: 700;
             background-color: white;
             border: 0;
             border-radius: 8px;
@@ -54,9 +75,11 @@
     }
     .study-list-title {
         margin: 20px auto;
+        font-family: 'Noto Sans KR', Courier, monospace;
+        font-weight: 700;
         @media screen and (min-width: 768px) {
             margin: 45px auto;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
     }
     .study-search-result {
@@ -68,6 +91,7 @@
         }
         .search-cont-main{
             @media screen and (min-width: 768px) {
+                margin-left: 60px;
                 display: grid;
                 grid-template-columns: repeat(4, 200px);
                 grid-template-rows: repeat(2,200px);
@@ -77,12 +101,14 @@
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 15px;
-                height: 120px;
+                height: 200px;
                 width: 100%;
                 border: 1.5px solid #a9a3a3;
                 border-radius: 12px;
                 box-shadow: 3px 3px 3px #c4c4c4;
-                padding: 10px;
+                padding: 10px 10px 40px 10px;
+                font-family: 'Noto Sans KR', Courier, monospace;
+                font-weight: 700;
                 @media screen and (min-width: 768px) {
                     height: 150px;
                     border-radius: 20px;
@@ -91,6 +117,8 @@
                 .search-cont-title {
                     font-weight: bold;
                     margin-top: 5px;
+                    font-family: 'Noto Sans KR', Courier, monospace;
+                    font-weight: 1000;
                     @media screen and (min-width: 768px) {
                         margin-top: 20px;
                         margin-left: 15px;
@@ -100,6 +128,8 @@
                 }
                 .search-cont-nop {
                     margin-top: 6px;
+                    font-family: 'Noto Sans KR', Courier, monospace;
+                    font-weight: 700;
                     @media screen and (min-width: 768px) {
                         margin-left: 15px;
                         margin-top: 4px;
@@ -108,6 +138,8 @@
                 }
                 .search-cont-summary {
                     margin-top: 6px;
+                    font-family: 'Noto Sans KR', Courier, monospace;
+                    font-weight: 700;
                     @media screen and (min-width: 768px) {
                         margin-left: 15px;
                         margin-top: 4px;
@@ -116,6 +148,11 @@
                 }
                 .search-cont-detail {
                     margin-top: 6px;
+                    font-family: 'Noto Sans KR', Courier, monospace;
+                    font-weight: 700;
+                    text-decoration: none;
+                    color: black;
+                    float: right;
                     @media screen and (min-width: 768px) {
                         margin-left: 15px;
                         margin-top: 4px;
@@ -173,3 +210,4 @@
         background-color: #a9a3a3;
     }
 }
+

@@ -1,7 +1,6 @@
 import React from 'react';
 import "../scss/pages/_StudyDataBar.scss";
 import { Link } from 'react-router-dom';
-import StudyWrite from './StudyWrite';
 
 function StudyDataWriteBar() {
     return (

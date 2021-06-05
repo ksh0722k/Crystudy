@@ -3,11 +3,11 @@
 .main-cont {
     display: flex;
     flex-direction: column;
-    margin: 10% auto;
+    margin: 8% auto;
 
     .main-title {
       font-family: 'Noto Sans KR', Courier, monospace;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       font-weight: 700;
       margin: 0 auto;
       @media screen and (min-width: 768px) {
@@ -36,7 +36,7 @@
         }
       }
       .main-center-Rcont {
-        background-color: #e0d7f1;
+        background-color: white;
         border-radius: 50%;
         border: 1.2px solid #a9a3a3;
         width: 135px;
@@ -49,6 +49,7 @@
           width: 175px;
           height: 175px;
           border: 1.5px solid #a9a3a3;
+          padding: 20px;
         }
       }
 
@@ -61,7 +62,7 @@
       }
 
       .main-center-Lcont {
-        background-color: #c0afe3;
+        background-color: white;
         border-radius: 50%;
         border: 1.2px solid #a9a3a3;
         width: 135px;
@@ -74,6 +75,7 @@
           width: 175px;
           height: 175px;
           border: 1.5px solid #a9a3a3;
+          padding: 20px;
         }
       }
 
