@@ -7,7 +7,10 @@ function StudyLeftBar() {
     return (
         <>
         <div id="leftframe">
-            <h2 id="leftbarlogo">  <img id="workIcon"src={workIcon}></img>Workspace</h2>
+            <div>
+                <img id="workIcon"src={workIcon}></img>
+                <h2 id="leftbarlogo">Workspace</h2>
+            </div>
             <div id="menudiv">
             <Link to ="/studyManage" class="menu">정보</Link>
             <Link to ="/studyPlan" class="menu">일정</Link>

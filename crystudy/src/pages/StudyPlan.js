@@ -9,6 +9,7 @@ function StudyPlan() {
         <div class="frame">
             <StudyLeftBar></StudyLeftBar>
             <StudyPlanBar></StudyPlanBar>
+            <StudyRightBar/>
         </div>
     )
 }

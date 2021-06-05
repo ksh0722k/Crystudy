@@ -20,7 +20,7 @@
 
 #rightframe{
     @media screen and (min-width: 768px) {
-        margin-top: 30px;
+        //margin-top: 30px;
         width: 20%;
         display: inline-block;
         position: absolute;
@@ -36,6 +36,7 @@
 
 #issueTitle{
     display: inline-block;
+    margin-top: -30px;
 }
 
 #rightbarlogo{
@@ -60,6 +61,8 @@
     text-align: right;
     float: right;
     margin-right: 15px;
+    // list 표시 없앰
+    list-style: none;
 }
 
 .issueComp{
@@ -132,4 +135,8 @@
         background-color: white;
     }
     
+}
+
+#issueIcon{
+    width: 40px;
 }

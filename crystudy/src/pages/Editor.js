@@ -31,9 +31,6 @@ class Editor extends Component {
                     } }
                 />
             </div>
-            <div id="submitdiv">
-            <button id="addbtn">등록하기</button>
-            </div>
             </>
         );
     }

@@ -77,7 +77,7 @@ export default class StudyPlanBar extends React.PureComponent {
         <Paper>
           <Scheduler
             data={data}
-            height={600}
+            height={550}
           >
             <ViewState
               currentDate={currentDate}
