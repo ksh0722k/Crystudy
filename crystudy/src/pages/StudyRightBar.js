@@ -26,6 +26,7 @@ class StudyRightBar extends React.Component {
             <div id="issue">
                 <div id="rightframe">
                     <div id="issueTitleFrame">
+                        <br/>
                         <h2 id="issueTitle">Issue Log</h2>
                         <img id="issueIcon" src={issueIcon}></img>
                         <div className="issueTop">  

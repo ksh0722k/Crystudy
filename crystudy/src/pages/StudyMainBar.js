@@ -10,6 +10,7 @@ function StudyMainBar() {
                 
                 
                 <div id="studyFrame">
+                    <br/>
                 <img id="studyIcon" src={studyIcon}></img>
                 <h1 id="studyTitle">React</h1>
                 <h3 class="studyInfoTitle">인원</h3>

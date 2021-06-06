@@ -30,8 +30,6 @@
 #logoIcon{
     @media screen and (min-width: 768px) {
         float: right;
-        width: 200px;
-        height: 55px;
         display: inline;
         margin-right: 10px;
     }
@@ -61,10 +59,18 @@
     font-weight: 700;
     margin: -5px;
     padding-left: 12px;
-    padding-bottom: 10px;
+    // padding-bottom: 40px;
+    
 }
 
 big{
     display: inline-block;
     color: purple;
+}
+
+
+#crystudyIcon{
+    margin-left: 10px;
+    text-align: center;
+    // height: 40px;
 }

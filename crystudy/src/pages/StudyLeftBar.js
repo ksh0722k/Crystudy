@@ -8,6 +8,7 @@ function StudyLeftBar() {
         <>
         <div id="leftframe">
             <div>
+                <br/>
                 <img id="workIcon"src={workIcon}></img>
                 <h2 id="leftbarlogo">Workspace</h2>
             </div>

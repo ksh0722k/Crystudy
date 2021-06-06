@@ -28,6 +28,10 @@
     padding: 30px;
 }
 
+.dataLink{
+    color: black;
+    text-decoration: none;
+}
 #studyDataTable{
     @media screen and (min-width: 768px) {
         font-family: 'Noto Sans KR', Courier, monospace;
@@ -41,16 +45,27 @@
     }
 }
 
+#dataTable{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
 tr{
     font-weight: 700;
+    font-display: bold;
+    font-size: 1.2rem;
 }
 
 tr > td{
     @media screen and (min-width: 768px) {
         font-family: 'Noto Sans KR', Courier, monospace;
-        padding-right: 200px;
+
+        padding-right: 230px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
+
 
 #writeBtn{
     @media screen and (min-width: 768px) {
@@ -58,8 +73,9 @@ tr > td{
         text-align: right;
         float: right;
         font-size: 1.0rem;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: 20px;
+        margin-right: 160px;
         border: 1px solid black;
         border-radius: 40px;
         padding-right: 15px;

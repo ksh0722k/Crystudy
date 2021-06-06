@@ -3,7 +3,6 @@ import "../scss/pages/_StudyManage.scss";
 import StudyLeftBar from "./StudyLeftBar.js";
 import '../scss/pages/_Editor.scss';
 import StudyRightBar from "./StudyRightBar.js";
-import StudyDataWriteBar from "./StudyDataWriteBar.js";
 import Editor from './Editor.js';
 
 function StudyPlan() {
