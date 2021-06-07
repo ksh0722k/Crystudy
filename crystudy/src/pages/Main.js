@@ -6,7 +6,7 @@ import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 import "../scss/pages/_Main.scss";
 
 function Main() {
-    const userName = "홍길동";
+    const userName = "이희진";
 
     return (
         <div className="main-cont">

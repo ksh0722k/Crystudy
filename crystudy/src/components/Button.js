@@ -40,7 +40,7 @@ class Button extends React.Component {
                         return(
                             <div className="study-detail-main-user">
                                 <AccountCircleIcon className="study-detail-userIcon"/>
-                                <div className="study-detail-user">홍길동</div>
+                                <div className="study-detail-user">이희진</div>
                                 <div className="study-detail-reply">
                                     <li>{e.text}</li>
                                 </div>

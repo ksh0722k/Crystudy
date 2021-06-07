@@ -37,7 +37,7 @@ class StudyRightBar extends React.Component {
                                 <div className="issueContent">
                                     <li>{e.text}</li>
                                 </div>
-                                <div className="issueWriter">홍길동</div>
+                                <div className="issueWriter">이희진</div>
                                 <div className="issueDate">2021.06.07</div>
                             </div>
                         ); 
