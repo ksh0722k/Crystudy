@@ -18,7 +18,7 @@
         font-family: 'Noto Sans KR', Courier, monospace;
         font-weight: 700;
         border: 1px solid #a9a3a3;
-        border-radius: 5px;
+        border-radius: 30px;
         margin-top: -30px;
         margin-bottom: 20px;
         height: 28px;
@@ -27,9 +27,11 @@
         margin-left: 63px;
         @media screen and (min-width: 768px) {
             height: 35px;
+            width: 130px;
             margin-left: 330px;
             margin-top: 30px;
             margin-bottom: -66px;
+            padding: 10px 15px 10px 15
         }
     }
     .study-search-top {

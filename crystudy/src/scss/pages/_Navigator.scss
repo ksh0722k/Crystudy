@@ -4,7 +4,6 @@
 
 .naviDiv{
     display: inline-block;
-    width: 100%;
     padding-top: 15px;
 }
 
@@ -28,6 +27,7 @@
 }
 
 #logoIcon{
+    width: 40%;
     @media screen and (min-width: 768px) {
         float: right;
         // margin-left: 300px;
@@ -38,7 +38,11 @@
 
 #crystudydiv{
     display: inline-block;
-    margin: 0px;
+
+    @media screen and (min-width: 768px) {
+        margin: 0px;
+    }
+    
 }
 
 #infodiv{
@@ -71,7 +75,12 @@ big{
 
 
 #crystudyIcon{
-    margin-left: 10px;
-    text-align: center;
-    // height: 40px;
+    display: inline-block;
+    width: 70%;
+    float: right;
+
+    @media screen and (min-width: 768px) {
+        float: left;
+        margin-left: 10px;
+    }
 }
