@@ -7,8 +7,8 @@ function StudyDataWriteBar() {
         <div id="dataframe">
             <div id="postFrame">
                 <br/>
-                <h1>Study Data</h1>
-                <hr/>
+                <h1 id="boardhead">Study Data</h1>
+                <p>스터디 관련 게시물을 작성해 보세요.</p>
 
                 <table id="dataTable"
                     ><tr>

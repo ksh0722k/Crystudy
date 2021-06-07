@@ -47,7 +47,7 @@ function StudyAdd(){
                     <div className="study-add-t-cont">세부 사항</div>
                     <textarea className="study-add-cont" rows="25" cols="100"/>
                 </div>
-                <input className="study-add-submit" type="button" value="등록하기" onClick={confirmAdd}/>
+                <input className="study-add-submit" type="button" id="submitbtn" value="등록하기" onClick={confirmAdd}/>
             </div>
         </div>
     )

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "../scss/pages/_StudyManage.scss";
 import StudyLeftBar from "./StudyLeftBar.js";
 import '../scss/pages/_Editor.scss';
@@ -14,7 +15,7 @@ function StudyPlan() {
                 <StudyRightBar/>
             </div>
             <div id="submitdiv">
-                <button id="addbtn">등록하기</button>
+                <Link to="/studyData/data3"><button id="addbtn">등록하기</button></Link>
             </div>
         </div>
     )
