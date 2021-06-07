@@ -26,8 +26,10 @@
         cursor: pointer;
         margin-left: 63px;
         @media screen and (min-width: 768px) {
+            padding-left: 2px;
+            width: 130px;
             height: 35px;
-            margin-left: 330px;
+            margin-left: 425px;
             margin-top: 30px;
             margin-bottom: -66px;
         }
