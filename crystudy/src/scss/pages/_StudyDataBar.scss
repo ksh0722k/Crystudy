@@ -51,7 +51,7 @@
 
 #dataTable{
     margin-top: 50px;
-    margin-left: 120px;
+    /* margin-left: 120px;*/
 }
 
 tr{
@@ -61,6 +61,7 @@ tr{
 }
 
 tr > td{
+    padding: 16px;
     @media screen and (min-width: 768px) {
         font-family: 'Noto Sans KR', Courier, monospace;
 
@@ -72,6 +73,7 @@ tr > td{
 
 
 #writeBtn{
+    margin-top: 10px;
     @media screen and (min-width: 768px) {
         font-family: 'Noto Sans KR', Courier, monospace;
         text-align: right;

@@ -30,7 +30,7 @@ const StudySearchDetail=(props)=>{
                         <div className="study-detail-content">{props.location.state.content}</div>
                     </div>
                 </div>
-                <hr width="55%"/>
+                <hr width="60%"/>
                 <Button/>
             </div>
         );

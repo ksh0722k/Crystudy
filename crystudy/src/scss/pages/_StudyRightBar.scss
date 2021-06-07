@@ -7,15 +7,15 @@
 
 
 #issue{
-    display: inline-block;
+    //display: inline-block;
 }
 
 #rightframe{
-    display: inline-block;
+    //display: inline-block;
 }
 
 #issueTitleFrame{
-    display: inline-block;
+    //display: inline-block;
 }
 
 #rightframe{
@@ -31,7 +31,7 @@
 }
 
 #issueTitleFrame{
-    text-align: right;
+    //text-align: right;
 }
 
 #issueTitle{
@@ -53,16 +53,21 @@
 
 #inputFrame{
     padding-right: 15px;
-    text-align: right;
+    /* text-align: right; */
+    margin-top: 25px;
+    /* text-align: left; */
+    margin-left: -12px;
+    width: 400px;
 }
 
 .issueTop{
     width: 83%;
-    text-align: right;
-    float: right;
-    margin-right: 15px;
-    // list 표시 없앰
+    /* text-align: right; */
+    /* float: right; */
+    /* margin-right: 15px; */
     list-style: none;
+    border: 1px solid black;
+    padding: 3px;
 }
 
 .issueComp{
@@ -125,6 +130,7 @@
 #issueBtn{
     width: 40px;
     height: 40px;
+    margin-left: 10px;
     @media screen and (min-width: 768px){
         font-size: 1.5rem;
         color: black;

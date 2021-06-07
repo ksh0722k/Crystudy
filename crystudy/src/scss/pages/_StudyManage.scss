@@ -17,7 +17,9 @@ StudyPlanBar{
     padding: 10px;
     margin-left: 5%;
     margin-right: 5%;
-    display: inline-block;
+    //display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 StudyLeftBar{
@@ -53,7 +55,7 @@ StudyRightBar{
 #datapostframe{
     max-width: 850px;
     margin-top: 10px;
-    margin-left: 300px;
+    //margin-left: 300px;
 }
 
 #lifecycleimg{
