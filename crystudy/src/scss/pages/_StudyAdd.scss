@@ -22,8 +22,9 @@ input{
 }
 
 textarea{
-    border: 2px solid grey;
+    border: 1.8px solid lightgrey;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .study-add {
@@ -38,7 +39,10 @@ textarea{
             margin-left: 10%px;
         }
         .study-add-h2 {
-            margin-left: 60px;
+            margin-left: 85px;
+            font-size: 1.3rem;
+            margin-top: 0px;
+            margin-bottom: 50px;
             @media screen and (min-width: 768px) {
                 margin-left: 400px;
             }
@@ -49,7 +53,7 @@ textarea{
             grid-template-rows: 30px 30px 30px 100px;
             margin-top: 30px;
             margin-bottom: 20px;
-            font-size: 1.2rem;
+            font-size: 0.9rem;
             font-family: 'Noto Sans KR', Courier, monospace;
             font-weight: 700;
             @media screen and (min-width: 768px) {
@@ -110,10 +114,11 @@ textarea{
         .study-add-submit {
             font-family: 'Noto Sans KR', Courier, monospace;
             font-weight: 700;
+            background-color: papayawhip;
             width: 100px;
             height: 35px;
-            margin-top: 245px;
-            margin-left: 10%;
+            margin-top: 220px;
+            margin-left: 33%;
             font-size: 0.8rem;
 
             @media screen and (min-width: 768px) {
@@ -128,6 +133,11 @@ textarea{
 }
 
 input{
-    border: 2px solid grey;
-    border-radius: 30px;
+    border: 1.5px solid lightgrey;
+    border-radius: 20px;
+    //box-shadow: 2px 2px 2px gray;
+    @media screen and (min-width: 768px) {
+        border: 2px solid grey;
+        border-radius: 20px;
+    }
 }

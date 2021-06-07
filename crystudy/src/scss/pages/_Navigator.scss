@@ -4,7 +4,6 @@
 
 .naviDiv{
     display: inline-block;
-    width: 100%;
     padding-top: 15px;
 }
 
@@ -41,7 +40,11 @@
 
 #crystudydiv{
     display: inline-block;
-    margin: 0px;
+
+    @media screen and (min-width: 768px) {
+        margin: 0px;
+    }
+    
 }
 
 #infodiv{
